@@ -1,0 +1,148 @@
+.board {
+    display: flex;
+}
+
+#container {
+    display: flex;
+    flex-direction:column-reverse;
+    
+}
+
+.card-container {
+    width: 33.3%;
+    background-color: #ebecf0;
+    margin: 0 4px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    vertical-align: top;
+    white-space: nowrap;
+    padding: 20px 10px;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    box-sizing: border-box;
+    min-height: 70px;
+    white-space: normal;
+    background-color: #d8d5d5;
+    padding: 5px 5px 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.header {
+    text-align: center;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d8d5d5;
+}
+
+.content {
+    background-color: white;
+    border-radius: 3px;
+    min-height: 20px;
+    position: relative;
+    margin-top: 2px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 2px;
+    word-wrap: break-word;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.adding-list {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    width: 100%;
+    align-self: center;
+    font-size: 12px;
+    padding: 3px;
+    background-color: #c0e3e3;
+    border-radius: 5px;
+    border: none;
+}
+
+.remove-list {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    width: 100%;
+    align-self: center;
+    font-size: 12px;
+    padding: 3px;
+    background-color: #c0e3e3;
+    border-radius: 5px;
+    border: none;   
+}
+
+.adding-list:hover {
+    cursor: pointer;
+    background-color: #68b1b1;
+}
+
+.modal {
+    width: 350px;
+    height: 250px;
+    background-color: gray;
+    position: relative;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+.field {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    height: 50%;
+    border-radius: 3px;
+    border:none;
+    background-color: #a7b1b1;
+}
+
+.create {
+    display: block;
+    margin: 20px auto;
+    background-color: #c0e3e3;
+    border-radius: 5px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.create:hover {
+    background-color: white;
+}
+
+.remove-item {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.close {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.close:hover {
+    background-color: white;
+}
+
